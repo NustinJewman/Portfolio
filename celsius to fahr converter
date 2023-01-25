@@ -1,0 +1,10 @@
+//temp in kelvin 
+const kelvin = 293
+//how to calculate celsius
+const celsius = kelvin - 273
+//i don't get it
+let fahrenheit = celsius *(9/5) + 32
+//rounding to nearest whole number
+ fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`)
